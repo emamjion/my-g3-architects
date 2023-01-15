@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px){
+    #header{
+        background: none;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar .logo{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #navbar .navlist li{
+        display: block;
+        margin: 10px 0;
+    }
+    #banner{
+        width: 500px;
+    }
+    #features{
+        flex-direction: column;
+    }
+    #features .features-image{
+        grid-template-columns: repeat(1,auto);
+    }
+    #features .features-txt{
+        width: 400px;
+    }
+    #features .features-txt .features-btn{
+        margin: 0 auto;
+    }
+    #features-react{
+        flex-direction: column;
+    }
+    #features-react .features-react-text{
+        width: 500px;
+    }
+    .works-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .achievement{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sponspors-logo{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
