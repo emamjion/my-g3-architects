@@ -8,6 +8,9 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+section{
+    margin-top: 130px;
+}
 /* Header section styles */
 #header{
     background-color: rgba(255, 144, 14, 0.1);
@@ -42,7 +45,6 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    padding-top: 100px;
 }
 /* Banner text part */
 #banner .banner-txt{
@@ -109,7 +111,8 @@
     color: #727272;
     font-weight: 500;
 }
-#features .features-title .clr-golden{
+/* #features .features-title  */
+.clr-golden{
     color: #ff900e;
     font-weight: 700;
 }
@@ -129,4 +132,67 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;
+}
+/* Features React section styles */
+#features-react{
+    display: flex;
+    gap: 145px;
+    padding: 0 240px;
+}
+/* Features react text part */
+#features-react .react-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    padding: 0 12px;
+    border-left: 5px solid #ff900e;
+}
+#features-react .react-description{
+    color: #727272;
+    line-height: 25px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+/* Features react image part */
+#features-react .features-react-image{
+    position: relative; 
+}
+/* Experience button */
+.experience-btn{
+    display: block;
+    padding: 45px 40px;
+    background-color: #ff900e;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -70px;
+    left: -92px;
+}
+.experience-btn strong{
+    font-size: 60px;
+}
+.experience-btn p{
+    font-size: 25px;
+}
+/* Features react work part  */
+.work{
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.06);
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+}
+.work-title{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #131313;
+}
+.work-description{
+    width: 515px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #727272;
 }
