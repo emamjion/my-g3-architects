@@ -176,25 +176,47 @@ section{
 .experience-btn p{
     font-size: 25px;
 }
-/* Features react work part  */
-.work{
+/* Features react text part  */
+.text{
     background-color: #fff;
     box-shadow: 0 4px 30px rgba(0,0,0,0.06);
     border-radius: 8px;
     padding: 25px;
     margin-top: 30px;
 }
-.work-title{
+.text-title{
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 20px;
     color: #131313;
 }
-.work-description{
+.text-description{
     width: 515px;
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
     color: #727272;
+}
+/* Our work section styles */
+#works{
+    margin-top: 200px;
+    padding: 0 240px;
+}
+#works .works-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 30px;
+}
+.works-image{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.works-image img{
+    width: 100%;
 }
 /* Facts section styles */
 #facts{
@@ -293,4 +315,19 @@ section{
 }
 .sponspors-logo img{
     filter: grayscale(1);
+}
+/* Footer section styles */
+#footer{
+    margin-top: 130px;
+    margin-bottom: 215px;
+    padding: 0 240px;
+    height: 100px;
+    background-color: #fff4e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer .footer-description{
+    color: #424242;
+    font-size: 20px;
 }
