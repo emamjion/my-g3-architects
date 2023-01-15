@@ -199,7 +199,6 @@ section{
 /* Facts section styles */
 #facts{
     padding: 0 240px;
-    margin-bottom: 100px; /* temporary */
 }
 /* facts header */
 .facts-title{
@@ -260,4 +259,38 @@ section{
 .achievement .achieve:hover .title,
 .achievement .achieve:hover .comments{
     transform: rotate(360deg);
+}
+/* Sponspors section styles */
+#sponspors{
+    margin-top: 180px;
+}
+#sponspors .sponspors-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sponspors .sponspors-header .sponspors-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+#sponspors .sponspors-header .sponspors-description{
+    width: 540px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727272;
+}
+/* Sponspors logo part */
+.sponspors-logo{
+    padding: 0 240px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponspors-logo img{
+    filter: grayscale(1);
 }
