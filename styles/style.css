@@ -44,7 +44,6 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
 }
 /* Banner text part */
 #banner .banner-txt{
