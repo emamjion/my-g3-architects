@@ -44,6 +44,7 @@
     width: 100%;
     padding-top: 100px;
 }
+/* Banner text part */
 #banner .banner-txt{
     width: 800px;
 }
@@ -66,7 +67,7 @@
 #banner .banner-txt .banner-btn{
     display: block;
     margin: 0 auto;
-    padding: 12px 18px;
+    padding: 12px 16px;
     border: 0;
     outline: none;
     background-color: #ff900e;
@@ -75,7 +76,57 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* Banner image part */
 #banner .banner-image{
     margin-top: 30px;
     margin-bottom: 45px;
+}
+/* Features section styles */
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 85px;
+}
+/* Features image part */
+#features .features-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+/* Features text part */
+#features .features-txt{
+    width: 535px;
+}
+#features .features-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #131313;
+}
+#features .features-title .clr-light-black{
+    color: #727272;
+    font-weight: 500;
+}
+#features .features-title .clr-golden{
+    color: #ff900e;
+    font-weight: 700;
+}
+#features .features-description{
+    font-size: 16px;
+    color: #727272;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+#features .features-btn{
+    display: block;
+    padding: 12px 16px;
+    border: 0;
+    outline: none;
+    background-color: #ff900e;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
 }
